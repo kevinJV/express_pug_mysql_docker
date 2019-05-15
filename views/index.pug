@@ -1,0 +1,19 @@
+html
+	head
+		title= 'Funciones del dia de hoy'
+		style
+			include style.css
+	body
+		h1= 'Funciones'
+	table
+		tr
+			th Pelicula
+			th Sala
+			th Hora
+			th Descripcion
+		for funcion in funcionesList
+			tr
+				td= funcion.pelicula
+				td= funcion.sala
+				td= funcion.hora
+				td= funcion.descripcion

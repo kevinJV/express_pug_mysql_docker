@@ -1,0 +1,17 @@
+{
+  "name": "node_mysql",
+  "version": "1.0.0",
+  "description": "Aplicacion que estara en docker el cual se conectara a una db mysql en otro docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "KevinJV",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql": "^2.17.1",
+    "pug": "^2.0.3"
+  }
+}
